@@ -16,4 +16,4 @@ Rules
 development.
 - Fetch published content in production; draft content only with the preview
 token.
-- Content slugs: en/home and de/home.
+- Content slugs: en/home and es/home.

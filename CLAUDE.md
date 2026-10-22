@@ -1,12 +1,12 @@
 # chargecloud Lab
 Marketing website of a fictional EV-charging company. Practice project that
 mirrors a real stack: Next.js (App Router) + React + TypeScript, Storyblok as
-headless CMS, two locales (en, de).
+headless CMS, two locales (en, es).
 ## Commands
 - npm run dev: start the dev server
 - npm run build: production build
 - npm run lint: ESLint
-- npm test: Jest unit and component tests
+- `npm test` is not available until the testing task is complete.
 - npm run test:e2e: Playwright end-to-end tests
 ## Stack and rules
 - Next.js App Router. Server Components by default; add "use client" only for
@@ -19,15 +19,16 @@ labels, alt text, contrast 4.5:1.
 registered in src/lib/storyblok.ts and uses storyblokEditable.
 - Never hard-code secrets. Read them from environment variables (see
 .env.example). Never commit .env.local.
-- Locales: en (default) and de. Content paths in Storyblok are en/home and
-de/home.
+- Locales: en (default) and es. Content paths in Storyblok are en/home and
+es/home.
 ## Specs
 Read the files in specs/ before coding. They are the source of truth. If code
 and spec disagree, ask me before changing either.
 ## Workflow
 - One git branch per task (feat/..., fix/...). Small commits with clear
 messages.
-- Before finishing a task run: npm run lint, npm test and npm run build.
+- Until the testing task is complete, run only `npm run lint` and
+  `npm run build`.
 - After UI changes use the a11y-reviewer subagent. After SEO changes use seoProyecto chargecloud Lab: guía paso a paso
 Page 7 of 23
 reviewer. Before a pull request use code-reviewer.

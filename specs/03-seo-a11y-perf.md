@@ -1,7 +1,7 @@
 # SEO, accessibility and performance
 ## SEO
 - generateMetadata per page: title, description, canonical, Open Graph,
-hreflang for en and de.
+hreflang for en and es.
 - sitemap.ts listing every published page in both locales; robots.ts.
 - JSON-LD Organization on the home page.
 - One h1 per page; headings never skip levels.

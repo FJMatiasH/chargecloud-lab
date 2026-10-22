@@ -1,9 +1,9 @@
 # Product spec: chargecloud Lab
 ## Goal
-A fast, accessible, bilingual (en, de) marketing site that marketing can edit
+A fast, accessible, bilingual (en, es) marketing site that marketing can edit
 in Storyblok without developer help.
 ## Pages
-- /en and /de: home page built only from Storyblok blocks.
+- /en and /es: home page built only from Storyblok blocks.
 - A language switcher visible on every page.
 - A 404 page with a link home.
 ## Success criteria
